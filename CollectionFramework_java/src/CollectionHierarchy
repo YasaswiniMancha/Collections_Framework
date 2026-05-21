@@ -25,8 +25,12 @@ Mind these
 *  means  implementation class
 # means interface
 
+(note: class implements interface, class extends class, interface extends interface)
+
+
 
 List # , Set #, Queue # ++++> Collection #  ++++> Iterable #
+
 
 ArrayList *, Linkedlist *, Vector * ----> List #
 stack *  ++++> Vector *   (Stack is subclass of the vector)
