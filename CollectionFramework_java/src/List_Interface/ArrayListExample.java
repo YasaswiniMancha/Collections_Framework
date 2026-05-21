@@ -6,11 +6,8 @@ public class ArrayListExample {
     public static void main(String[] args) {
         
         //generic type declaration to create arraylist
-    	//ArrayList<String> fruits = new ArrayList<String>();
-    	
-    	
-         List<String> fruits = new ArrayList<>();
-
+    	//ArrayList<String> fruits = new ArrayList<String>()
+         List<String> fruits = new ArrayList<>()
 
         // Adding elements to the ArrayList
         fruits.add("Apple");
@@ -46,9 +43,8 @@ public class ArrayListExample {
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
-
         // Clearing the ArrayList
         fruits.clear();
-        System.out.println("ArrayList after clearing: " + fruits);
+        System.out.println("ArrayList after clearing: "+ fruits);
     }
 }
